@@ -38,3 +38,8 @@ if (document.cookie != "") {
   document.cookie = "global.css";
   console.log(document.cookie);
 }
+
+function reset() {
+  deleteAllCookies();
+  location.reload();
+}
